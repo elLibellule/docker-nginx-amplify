@@ -34,8 +34,7 @@ COPY ./conf.d/stub_status.conf /etc/nginx/conf.d
 # to build your own image to host it in a private registry.
 # However, including private keys in the Dockerfile is not recommended.
 # Use the environment variables at runtime as described below.
-
-#ENV API_KEY 1234567890
+ENV API_KEY='4cadaab2e2fe55431e250796d68c24a4'
 
 # If AMPLIFY_IMAGENAME is set, the startup wrapper script will use it to
 # generate the 'imagename' to put in the /etc/amplify-agent/agent.conf
